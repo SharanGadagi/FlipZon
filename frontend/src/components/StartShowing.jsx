@@ -5,6 +5,7 @@ const StartShowing = ({ star }) => {
   const ratingStar = Array.from({ length: 5 }, (item, index) => {
     let number = index + 0.5;
 
+    //.
     return (
       <span key={index}>
         {star >= index + 1 ? (
